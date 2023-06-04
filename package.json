@@ -1,0 +1,28 @@
+{
+  "name": "03062023",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon index",
+    "test-report":"mocha test --reporter mochawesome --require mochawesome/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body": "^5.1.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.3.0",
+    "express": "^4.18.2",
+    "mochawesome": "^7.1.3",
+    "parser": "^0.1.4",
+    "sinon": "^15.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nock": "^13.3.1"
+  }
+}
